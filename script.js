@@ -44,7 +44,7 @@ const scenes = [
         background: "manor",
         character: "butler",
         speaker: "Butler",
-        text: "Good evening. I am Henderson, the butler. You must be the investigator we've been expecting. Please, come in. The family is quite worried about Miss Krunky's disappearance.",
+        text: "Good evening. I am Mutters, the resident butler of this winsome estate". He pauses. "You must be the investigator we've been expecting. Please, come in. The family is quite worried about Miss Krunky's disappearance.",
         auto: true,
         next: 4
     },
