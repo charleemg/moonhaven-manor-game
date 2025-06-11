@@ -54,7 +54,7 @@ This game can be easily deployed to GitHub Pages:
 2. Upload all files to the repository
 3. Go to Settings > Pages
 4. Select "Deploy from a branch" and choose "main"
-5. Your game will be available at: `https://yourusername.github.io/repository-name`
+5. You can play this thing at: `https://charleemg.github.io/moonhaven-manor-game
 
 ## Future Enhancements
 
