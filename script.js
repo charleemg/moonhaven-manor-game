@@ -44,7 +44,7 @@ const scenes = [
         background: "manor",
         character: "butler",
         speaker: "Butler",
-        text: "Good evening. I am Henderson, the butler. You must be the investigator we've been expecting. Please, come in. The family is quite worried about Miss Margaret's disappearance.",
+        text: "Good evening. I am Henderson, the butler. You must be the investigator we've been expecting. Please, come in. The family is quite worried about Miss Krunky's disappearance.",
         auto: true,
         next: 4
     },
@@ -53,7 +53,7 @@ const scenes = [
         background: "foyer",
         character: "butler",
         speaker: "Butler",
-        text: "Miss Margaret was last seen three days ago in her study. She had been acting quite strange lately, always muttering about 'the family secret' and spending hours in the old library.",
+        text: "Miss Krunky was last seen three days ago in her study. She had been acting quite strange lately, always muttering about 'the family secret' and spending hours in the old library.",
         choices: [
             { text: "Ask about the family secret", next: 5 },
             { text: "Request to see her study", next: 6 },
@@ -65,7 +65,7 @@ const scenes = [
         background: "foyer",
         character: "butler",
         speaker: "Butler",
-        text: "I'm afraid I don't know much about it. Miss Margaret's family has owned this manor for over 200 years. There have always been... rumors. Strange occurrences. But Miss Margaret seemed to have discovered something specific recently.",
+        text: "I'm afraid I don't know much about it. Miss Krunky's family has owned this manor for over 200 years. There have always been... rumors. Strange occurrences. But Miss Krunky seemed to have discovered something specific recently.",
         auto: true,
         next: 8
     },
@@ -74,7 +74,7 @@ const scenes = [
         background: "study",
         character: null,
         speaker: "Narrator",
-        text: "Henderson leads you to Margaret's study. The room is in disarray - books scattered on the floor, papers strewn across the desk, and a large painting on the wall has been moved, revealing a hidden safe behind it.",
+        text: "Henderson leads you to Krunky's study. The room is in disarray - books scattered on the floor, papers strewn across the desk, and a large painting on the wall has been moved, revealing a hidden safe behind it.",
         choices: [
             { text: "Examine the scattered papers", next: 11 },
             { text: "Investigate the hidden safe", next: 12 },
@@ -118,7 +118,7 @@ const scenes = [
         background: "study",
         character: null,
         speaker: "Narrator",
-        text: "Among the scattered papers, you find Margaret's handwritten notes. They mention 'the midnight ritual' and 'the key beneath the portrait of great-grandfather Blackwood.' There's also a sketch of what appears to be a hidden chamber.",
+        text: "Among the scattered papers, you find Krunky's handwritten notes. They mention 'the midnight ritual' and 'the key beneath the portrait of great-grandfather Barmwood.' There's also a sketch of what appears to be a hidden chamber.",
         auto: true,
         next: 17
     },
@@ -136,7 +136,7 @@ const scenes = [
         background: "study",
         character: "butler",
         speaker: "Butler",
-        text: "I found the room like this the morning after Miss Margaret disappeared. Nothing seemed to be stolen, but she was clearly searching for something urgently.",
+        text: "I found the room like this the morning after Miss Krunky disappeared. Nothing seemed to be stolen, but she was clearly searching for something urgently.",
         auto: true,
         next: 17
     },
@@ -145,7 +145,7 @@ const scenes = [
         background: "library",
         character: null,
         speaker: "Narrator",
-        text: "The journal contains Margaret's recent entries. The final entry reads: 'I've found it at last! The truth about the Blackwood curse. Tonight, I descend into the hidden chamber to break the cycle once and for all.'",
+        text: "The journal contains Krunky's recent entries. The final entry reads: 'I've found it at last! The truth about the Barmwood curse. Tonight, I descend into the hidden chamber to break the cycle once and for all.'",
         auto: true,
         next: 18
     },
@@ -163,7 +163,7 @@ const scenes = [
         background: "library",
         character: null,
         speaker: "Narrator",
-        text: "Searching the library more thoroughly, you find Margaret's reading glasses on the floor near the bookshelf, and footprints leading toward the back wall.",
+        text: "Searching the library more thoroughly, you find Krunky's reading glasses on the floor near the bookshelf, and footprints leading toward the back wall.",
         auto: true,
         next: 18
     },
@@ -172,7 +172,7 @@ const scenes = [
         background: "study",
         character: null,
         speaker: "Narrator",
-        text: "You've gathered important clues from the study. It's clear that Margaret discovered something significant about her family's history. Perhaps the library holds more answers.",
+        text: "You've gathered important clues from the study. It's clear that Krunky discovered something significant about her family's history. Perhaps the library holds more answers.",
         choices: [
             { text: "Head to the library", next: 7 },
             { text: "Search the rest of the manor", next: 19 }
@@ -183,7 +183,7 @@ const scenes = [
         background: "library",
         character: null,
         speaker: "Narrator",
-        text: "All evidence points to Margaret having discovered a hidden chamber beneath the manor. The secret passage behind the bookshelf seems to be your next destination.",
+        text: "All evidence points to Krunky having discovered a hidden chamber beneath the manor. The secret passage behind the bookshelf seems to be your next destination.",
         choices: [
             { text: "Enter the secret passage", next: 20 },
             { text: "Get Henderson's help first", next: 21 },
@@ -204,7 +204,7 @@ const scenes = [
         background: "chamber",
         character: null,
         speaker: "Narrator",
-        text: "You descend the narrow stone steps into an ancient chamber. Candles flicker mysteriously, as if lit recently. In the center of the room, you see Margaret kneeling before an ornate altar, very much alive but seemingly in a trance.",
+        text: "You descend the narrow stone steps into an ancient chamber. Candles flicker mysteriously, as if lit recently. In the center of the room, you see Krunky kneeling before an ornate altar, very much alive but seemingly in a trance.",
         auto: true,
         next: 23
     },
@@ -213,7 +213,7 @@ const scenes = [
         background: "library",
         character: "butler",
         speaker: "Butler",
-        text: "I had no idea this passage existed! The Blackwood family has kept many secrets over the years. Please, be careful down there. I'll wait here in case you need assistance.",
+        text: "I had no idea this passage existed! The Barmwood family has kept many secrets over the years. Please, be careful down there. I'll wait here in case you need assistance.",
         auto: true,
         next: 20
     },
@@ -229,20 +229,20 @@ const scenes = [
     {
         id: 23,
         background: "chamber",
-        character: "margaret",
-        speaker: "Margaret",
-        text: "You... you came. I knew someone would eventually follow the clues. I've been trapped here for three days, bound by an ancient ritual. The Blackwood curse is real, and I've been trying to break it.",
+        character: "Krunky",
+        speaker: "Krunky",
+        text: "You... you came. I knew someone would eventually follow the clues. I've been trapped here for three days, bound by an ancient ritual. The Barmwood curse is real, and I've been trying to break it.",
         choices: [
             { text: "How can I help you?", next: 24 },
-            { text: "What is the Blackwood curse?", next: 25 },
+            { text: "What is the Barmwood curse?", next: 25 },
             { text: "Let's get you out of here", next: 26 }
         ]
     },
     {
         id: 24,
         background: "chamber",
-        character: "margaret",
-        speaker: "Margaret",
+        character: "Krunky",
+        speaker: "Krunky",
         text: "The ritual requires two people to complete - one to break the binding, another to seal the curse forever. But beware, failure means we'll both be trapped here.",
         auto: true,
         next: 27
@@ -250,17 +250,17 @@ const scenes = [
     {
         id: 25,
         background: "chamber",
-        character: "margaret",
-        speaker: "Margaret",
-        text: "For generations, the firstborn of each Blackwood generation has been drawn to this chamber on their 40th birthday, compelled by an ancient curse. Most never return. I'm determined to be the last.",
+        character: "Krunky",
+        speaker: "Krunky",
+        text: "For generations, the firstborn of each Barmwood generation has been drawn to this chamber on their 40th birthday, compelled by an ancient curse. Most never return. I'm determined to be the last.",
         auto: true,
         next: 27
     },
     {
         id: 26,
         background: "chamber",
-        character: "margaret",
-        speaker: "Margaret",
+        character: "Krunky",
+        speaker: "Krunky",
         text: "I wish it were that simple. The curse binds me here until it's properly broken. But together, we might be able to end this once and for all.",
         auto: true,
         next: 27
@@ -268,8 +268,8 @@ const scenes = [
     {
         id: 27,
         background: "chamber",
-        character: "margaret",
-        speaker: "Margaret",
+        character: "Krunky",
+        speaker: "Krunky",
         text: "There are two ancient stones on the altar. We must each touch one simultaneously while speaking the words carved into the wall. Are you ready to risk everything to break this curse?",
         choices: [
             { text: "Yes, let's break the curse together", next: 28 },
@@ -281,15 +281,15 @@ const scenes = [
         background: "chamber",
         character: null,
         speaker: "Narrator",
-        text: "You and Margaret touch the stones together and speak the ancient words. The chamber fills with blinding light, and you feel a tremendous weight lifting. When your vision clears, you're both standing free. The curse is broken, and the Blackwood family is finally at peace.",
+        text: "You and Krunky touch the stones together and speak the ancient words. The chamber fills with blinding light, and you feel a tremendous weight lifting. When your vision clears, you're both standing free. The curse is broken, and the Barmwood family is finally at peace.",
         auto: true,
         next: 30
     },
     {
         id: 29,
         background: "chamber",
-        character: "margaret",
-        speaker: "Margaret",
+        character: "Krunky",
+        speaker: "Krunky",
         text: "Perhaps you're right. But I fear I may be trapped here forever. However, knowing that someone else knows the truth brings me some comfort. Please, tell my story to the world.",
         auto: true,
         next: 31
@@ -297,9 +297,9 @@ const scenes = [
     {
         id: 30,
         background: "manor",
-        character: "margaret",
+        character: "Krunky",
         speaker: "Narrator",
-        text: "You and Margaret emerge from the chamber as heroes. The investigation is complete, the mystery solved, and an ancient curse has been broken. The Blackwood family can finally live in peace. THE END - Good Ending",
+        text: "You and Krunky emerge from the chamber as heroes. The investigation is complete, the mystery solved, and an ancient curse has been broken. The Barmwood family can finally live in peace. THE END - Good Ending",
         choices: [
             { text: "Play Again", next: 0 }
         ]
@@ -309,7 +309,7 @@ const scenes = [
         background: "manor",
         character: null,
         speaker: "Narrator",
-        text: "You leave the chamber, unable to save Margaret but carrying the weight of her story. The investigation is complete, but at a great cost. Some mysteries are better left unsolved. THE END - Bittersweet Ending",
+        text: "You leave the chamber, unable to save Krunky but carrying the weight of her story. The investigation is complete, but at a great cost. Some mysteries are better left unsolved. THE END - Bittersweet Ending",
         choices: [
             { text: "Play Again", next: 0 }
         ]
