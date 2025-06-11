@@ -72,4 +72,3 @@ Created as a demonstration of web-based visual novel development using vanilla J
 ---
 
 **Play the game by opening `index.html` in your browser!**
-
