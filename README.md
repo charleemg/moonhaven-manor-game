@@ -1,5 +1,5 @@
-# moonhaven-manor-game
-🎮 "The Mystery of Moonhaven Manor" - Visual Novel Game
+
+# 🎮 "The Mystery of Moonhaven Manor" - Visual Novel Game
 
 What we created:
 1. Complete web-based visual novel with a compelling mystery story
