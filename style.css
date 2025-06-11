@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    height: 100vh;
+    overflow: hidden;
+}
+
+#game-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
+                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="%23001122"/><rect x="300" y="200" width="600" height="400" fill="%23112233" stroke="%23334455" stroke-width="3"/><rect x="450" y="300" width="100" height="150" fill="%23223344"/><rect x="650" y="320" width="80" height="120" fill="%23445566"/></svg>');
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s ease;
+}
+
+#character-container {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    height: 60%;
+    display: flex;
+    align-items: flex-end;
+}
+
+#character {
+    max-height: 100%;
+    max-width: 300px;
+    transition: opacity 0.3s ease;
+}
+
+#dialogue-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    min-height: 150px;
+    border-top: 3px solid #4a90e2;
+}
+
+#speaker-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4a90e2;
+    margin-bottom: 10px;
+}
+
+#dialogue-text {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    min-height: 60px;
+}
+
+#continue-button {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    background: #4a90e2;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s ease;
+}
+
+#continue-button:hover {
+    background: #357abd;
+}
+
+#choices-container {
+    position: absolute;
+    bottom: 160px;
+    left: 20px;
+    right: 20px;
+}
+
+#choices {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.choice-button {
+    background: rgba(74, 144, 226, 0.9);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    text-align: left;
+}
+
+.choice-button:hover {
+    background: rgba(53, 122, 189, 0.9);
+    transform: translateX(5px);
+}
+
+#title-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+#title-screen h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+#title-screen p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    opacity: 0.9;
+}
+
+#title-screen button {
+    background: #4a90e2;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#title-screen button:hover {
+    background: #357abd;
+    transform: translateY(-2px);
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    #dialogue-box {
+        padding: 15px;
+        min-height: 120px;
+    }
+    
+    #speaker-name {
+        font-size: 16px;
+    }
+    
+    #dialogue-text {
+        font-size: 14px;
+    }
+    
+    #title-screen h1 {
+        font-size: 2rem;
+    }
+    
+    #character {
+        max-width: 200px;
+    }
+}
+

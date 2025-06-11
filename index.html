@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Mystery of Moonhaven Manor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="background"></div>
+        
+        <div id="character-container">
+            <img id="character" src="" alt="Character" style="display: none;">
+        </div>
+        
+        <div id="dialogue-box">
+            <div id="speaker-name"></div>
+            <div id="dialogue-text"></div>
+            <div id="continue-button" onclick="nextDialogue()">Continue</div>
+        </div>
+        
+        <div id="choices-container" style="display: none;">
+            <div id="choices"></div>
+        </div>
+        
+        <div id="title-screen">
+            <h1>The Mystery of Moonhaven Manor</h1>
+            <p>A Visual Novel Adventure</p>
+            <button onclick="startGame()">Start Game</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
