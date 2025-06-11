@@ -4,7 +4,7 @@ A web-based visual novel adventure game built with HTML, CSS, and JavaScript.
 
 ## Story
 
-You play as an investigator hired to solve the mysterious disappearance of Margaret Blackwood, the owner of the imposing Moonhaven Manor. As you explore the Victorian mansion, you'll uncover dark family secrets, ancient curses, and make choices that determine the fate of both Margaret and yourself.
+You are an unstable, unhappy investigator hired to solve the mysterious disappearance of Krunky Barmwood, the owner of the imposing Moonhaven Manor. As you explore the bizarre mansion, you'll uncover dark family secrets, ancient curses, and make choices that determine the fate of both Krunky and you, whoever you are.
 
 ## Features
 
