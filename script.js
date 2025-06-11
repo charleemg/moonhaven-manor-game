@@ -23,7 +23,7 @@ const scenes = [
         id: 1,
         background: "manor",
         character: null,
-        speaker: "Narrator",
+        speaker: "???",
         text: "You knock firmly on the heavy wooden door. After a moment, you hear footsteps approaching from within. The door creaks open to reveal an elderly butler with kind but worried eyes.",
         auto: true,
         next: 3
@@ -32,7 +32,7 @@ const scenes = [
         id: 2,
         background: "manor",
         character: null,
-        speaker: "Narrator",
+        speaker: "???",
         text: "You decide to explore the perimeter of the manor. Walking around the side, you discover a small window that's been left slightly ajar. Through it, you can see into what appears to be a library.",
         choices: [
             { text: "Climb through the window", next: 10 },
@@ -73,7 +73,7 @@ const scenes = [
         id: 6,
         background: "study",
         character: null,
-        speaker: "Narrator",
+        speaker: "???",
         text: "Henderson leads you to Krunky's study. The room is in disarray - books scattered on the floor, papers strewn across the desk, and a large painting on the wall has been moved, revealing a hidden safe behind it.",
         choices: [
             { text: "Examine the scattered papers", next: 11 },
@@ -85,7 +85,7 @@ const scenes = [
         id: 7,
         background: "library",
         character: null,
-        speaker: "Narrator",
+        speaker: "???",
         text: "The library is vast and filled with ancient tomes. One bookshelf appears to have been disturbed recently, with several books pulled out and left on a nearby reading table. Among them, you notice a leather-bound journal.",
         choices: [
             { text: "Read the journal", next: 14 },
@@ -108,7 +108,7 @@ const scenes = [
         id: 10,
         background: "library",
         character: null,
-        speaker: "Narrator",
+        speaker: "???",
         text: "You carefully climb through the window into the library. The room is dimly lit by moonlight streaming through tall windows. You notice the same disturbed bookshelf and journal that you would have found if you had entered normally.",
         auto: true,
         next: 7
@@ -117,7 +117,7 @@ const scenes = [
         id: 11,
         background: "study",
         character: null,
-        speaker: "Narrator",
+        speaker: "???",
         text: "Among the scattered papers, you find Krunky's handwritten notes. They mention 'the midnight ritual' and 'the key beneath the portrait of great-grandfather Barmwood.' There's also a sketch of what appears to be a hidden chamber.",
         auto: true,
         next: 17
@@ -126,7 +126,7 @@ const scenes = [
         id: 12,
         background: "study",
         character: null,
-        speaker: "Narrator",
+        speaker: "???",
         text: "The safe is open and empty. Whatever was inside has been taken. You notice scratch marks around the lock - it was opened recently, and perhaps hastily.",
         auto: true,
         next: 17
@@ -144,7 +144,7 @@ const scenes = [
         id: 14,
         background: "library",
         character: null,
-        speaker: "Narrator",
+        speaker: "???",
         text: "The journal contains Krunky's recent entries. The final entry reads: 'I've found it at last! The truth about the Barmwood curse. Tonight, I descend into the hidden chamber to break the cycle once and for all.'",
         auto: true,
         next: 18
@@ -153,7 +153,7 @@ const scenes = [
         id: 15,
         background: "library",
         character: null,
-        speaker: "Narrator",
+        speaker: "???",
         text: "Behind the moved books, you discover a hidden lever. When pulled, it reveals a secret passage that leads downward into darkness. A cool breeze emanates from within.",
         auto: true,
         next: 18
@@ -162,8 +162,8 @@ const scenes = [
         id: 16,
         background: "library",
         character: null,
-        speaker: "Narrator",
-        text: "Searching the library more thoroughly, you find Krunky's reading glasses on the floor near the bookshelf, and footprints leading toward the back wall.",
+        speaker: "???",
+        text: "Searching the library more thoroughly, you find Krunky's green-tinted reading glasses on the floor near the bookshelf, and footprints leading toward the back wall.",
         auto: true,
         next: 18
     },
@@ -171,7 +171,7 @@ const scenes = [
         id: 17,
         background: "study",
         character: null,
-        speaker: "Narrator",
+        speaker: "???",
         text: "You've gathered important clues from the study. It's clear that Krunky discovered something significant about her family's history. Perhaps the library holds more answers.",
         choices: [
             { text: "Head to the library", next: 7 },
@@ -182,7 +182,7 @@ const scenes = [
         id: 18,
         background: "library",
         character: null,
-        speaker: "Narrator",
+        speaker: "???",
         text: "All evidence points to Krunky having discovered a hidden chamber beneath the manor. The secret passage behind the bookshelf seems to be your next destination.",
         choices: [
             { text: "Enter the secret passage", next: 20 },
@@ -194,7 +194,7 @@ const scenes = [
         id: 19,
         background: "manor",
         character: null,
-        speaker: "Narrator",
+        speaker: "???",
         text: "You search the other rooms but find nothing as significant as what you discovered in the study. Your investigation leads you back to the library, where the real answers seem to lie.",
         auto: true,
         next: 7
@@ -203,7 +203,7 @@ const scenes = [
         id: 20,
         background: "chamber",
         character: null,
-        speaker: "Narrator",
+        speaker: "???",
         text: "You descend the narrow stone steps into an ancient chamber. Candles flicker mysteriously, as if lit recently. In the center of the room, you see Krunky kneeling before an ornate altar, very much alive but seemingly in a trance.",
         auto: true,
         next: 23
@@ -221,7 +221,7 @@ const scenes = [
         id: 22,
         background: "library",
         character: null,
-        speaker: "Narrator",
+        speaker: "???",
         text: "You find a flashlight in a nearby drawer, though the passage seems to have its own mysterious illumination. You're as prepared as you can be.",
         auto: true,
         next: 20
@@ -280,7 +280,7 @@ const scenes = [
         id: 28,
         background: "chamber",
         character: null,
-        speaker: "Narrator",
+        speaker: "???",
         text: "You and Krunky touch the stones together and speak the ancient words. The chamber fills with blinding light, and you feel a tremendous weight lifting. When your vision clears, you're both standing free. The curse is broken, and the Barmwood family is finally at peace.",
         auto: true,
         next: 30
@@ -298,7 +298,7 @@ const scenes = [
         id: 30,
         background: "manor",
         character: "Krunky",
-        speaker: "Narrator",
+        speaker: "???",
         text: "You and Krunky emerge from the chamber as heroes. The investigation is complete, the mystery solved, and an ancient curse has been broken. The Barmwood family can finally live in peace. THE END - Good Ending",
         choices: [
             { text: "Play Again", next: 0 }
@@ -308,7 +308,7 @@ const scenes = [
         id: 31,
         background: "manor",
         character: null,
-        speaker: "Narrator",
+        speaker: "???",
         text: "You leave the chamber, unable to save Krunky but carrying the weight of her story. The investigation is complete, but at a great cost. Some mysteries are better left unsolved. THE END - Bittersweet Ending",
         choices: [
             { text: "Play Again", next: 0 }
