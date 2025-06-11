@@ -1,7 +1,7 @@
 // Game State
 let currentScene = 0;
 let gameData = {
-    playerName: "Alex",
+    playerName: "Binkle",
     choices: {},
     flags: {}
 };
@@ -12,8 +12,8 @@ const scenes = [
         id: 0,
         background: "manor",
         character: null,
-        speaker: "Narrator",
-        text: "You stand before the imposing Moonhaven Manor. The old Victorian house looms against the stormy sky, its windows dark and mysterious. You've been hired to investigate the disappearance of the mansion's owner, Margaret Blackwood.",
+        speaker: "???",
+        text: "You stand before the weird, not entirely present Moonhaven Manor. The crumbly house looms against the stormy yellow sky, its windows dark and mad and hungry. You've been hired, as is tradition, to investigate the disappearance of the mansion's owner, Krunky Barmwood.",
         choices: [
             { text: "Knock on the front door", next: 1 },
             { text: "Look for another way in", next: 2 }
