@@ -74,11 +74,11 @@ const scenes = [
         background: "study",
         character: null,
         speaker: "???",
-        text: "Henderson leads you to Krunky's study. The room is in disarray - books scattered on the floor, papers strewn across the desk, and a large painting on the wall has been moved, revealing a hidden safe behind it.",
+        text: "Mutters leads you to Krunky's study. The room is in disarray - books scattered on the floor, papers strewn across the desk, and a large painting on the wall has been moved, revealing a hidden safe behind it.",
         choices: [
             { text: "Examine the scattered papers", next: 11 },
             { text: "Investigate the hidden safe", next: 12 },
-            { text: "Ask Henderson about the mess", next: 13 }
+            { text: "Ask Mutters about the mess", next: 13 }
         ]
     },
     {
@@ -186,7 +186,7 @@ const scenes = [
         text: "All evidence points to Krunky having discovered a hidden chamber beneath the manor. The secret passage behind the bookshelf seems to be your next destination.",
         choices: [
             { text: "Enter the secret passage", next: 20 },
-            { text: "Get Henderson's help first", next: 21 },
+            { text: "Get Mutters' help first", next: 21 },
             { text: "Look for more equipment", next: 22 }
         ]
     },
