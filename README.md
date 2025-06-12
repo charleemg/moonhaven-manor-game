@@ -17,7 +17,7 @@ You are an unstable, unhappy investigator hired to solve the mysterious disappea
 
 ## How to Play
 
-1. Open `index.html` in your web browser
+1. Open `index.html` in your web browser, or just [play it straight at its URL](https://charleemg.github.io/moonhaven-manor-game).
 2. Click "Start Game" to begin your investigation
 3. Read the story text and click "Continue" to advance
 4. When presented with choices, click on your preferred option
@@ -46,17 +46,8 @@ You are an unstable, unhappy investigator hired to solve the mysterious disappea
 - `script.js` - Game logic, story data, and interactive functionality
 - `README.md` - This documentation file
 
-## Deployment
 
-This game can be easily deployed to GitHub Pages:
-
-1. Create a new repository on GitHub
-2. Upload all files to the repository
-3. Go to Settings > Pages
-4. Select "Deploy from a branch" and choose "main"
-5. You can play this thing at: `https://charleemg.github.io/moonhaven-manor-game
-
-## Future Enhancements
+## Future Enhancements (yeah, right)
 
 - Character sprite images
 - Background music and sound effects
