@@ -145,7 +145,7 @@ const scenes = [
         background: "library",
         character: null,
         speaker: "???",
-        text: "The journal contains Krunky's recent entries. The final entry reads: 'I've found it at last! The truth about the Barmwood curse. Tonight, I descend into the hidden chamber to break the cycle once and for all.'",
+        text: "The journal contains Krunky's recent entries. The final entry reads: 'I've found it at last! The truth about the Barmwood curse. Tonight, I shall descend into the house's hidden chamber. I must break the cycle once and for all!'",
         auto: true,
         next: 18
     },
@@ -154,7 +154,7 @@ const scenes = [
         background: "library",
         character: null,
         speaker: "???",
-        text: "Behind the moved books, you discover a hidden lever. When pulled, it reveals a secret passage that leads downward into darkness. A cool breeze emanates from within.",
+        text: "Behind the shifted books, you find a not very well hidden lever. You pull it and reveal a secret passage that leads downward into darkness. A cool breeze wafts from within.",
         auto: true,
         next: 18
     },
@@ -204,7 +204,7 @@ const scenes = [
         background: "chamber",
         character: null,
         speaker: "???",
-        text: "You descend the narrow stone steps into an ancient chamber. Candles flicker mysteriously, as if lit recently. In the center of the room, you see Krunky kneeling before an ornate altar, very much alive but seemingly in a trance.",
+        text: "You descend the narrow stone steps into an ancient chamber. Candles flicker weirdly; they have clearly been lit recently. In the center of the room, you see Krunky Barmwood herself. She is kneeling before an ornate altar, very much alive but seemingly in some kind of trance.",
         auto: true,
         next: 23
     },
@@ -231,7 +231,7 @@ const scenes = [
         background: "chamber",
         character: "Krunky",
         speaker: "Krunky",
-        text: "You... you came. I knew someone would eventually follow the clues. I've been trapped here for three days, bound by an ancient ritual. The Barmwood curse is real, and I've been trying to break it.",
+        text: "You... you came! I was hoping you'd follow the clues and find me here. I've been trapped here for three days, bound by an ancient ritual. The Barmwood curse is REAL. I've been trying to break it, but I....",
         choices: [
             { text: "How can I help you?", next: 24 },
             { text: "What is the Barmwood curse?", next: 25 },
@@ -243,7 +243,7 @@ const scenes = [
         background: "chamber",
         character: "Krunky",
         speaker: "Krunky",
-        text: "The ritual requires two people to complete - one to break the binding, another to seal the curse forever. But beware, failure means we'll both be trapped here.",
+        text: "The ritual needs two people to complete; one to break the binding, another to seal the curse forever. But unfortunately... if we fail, we'll both be trapped here. Forever, I think?",
         auto: true,
         next: 27
     },
@@ -252,7 +252,7 @@ const scenes = [
         background: "chamber",
         character: "Krunky",
         speaker: "Krunky",
-        text: "For generations, the firstborn of each Barmwood generation has been drawn to this chamber on their 40th birthday, compelled by an ancient curse. Most never return. I'm determined to be the last.",
+        text: "For generations, the firstborn of each Barmwood generation has been drawn to this chamber on their 40th birthday, compelled by an ancient curse. They never return. I HAVE to end this!",
         auto: true,
         next: 27
     },
@@ -299,7 +299,7 @@ const scenes = [
         background: "manor",
         character: "Krunky",
         speaker: "???",
-        text: "You and Krunky emerge from the chamber as heroes. The investigation is complete, the mystery solved, and an ancient curse has been broken. The Barmwood family can finally live in peace. THE END - Good Ending",
+        text: "You and Krunky emerge from the chamber as heroes. The investigation is complete, the mystery solved, and an ancient curse has been broken. The Barmwood family can finally live in peace. THE END - WELL DONE!",
         choices: [
             { text: "Play Again", next: 0 }
         ]
@@ -309,7 +309,7 @@ const scenes = [
         background: "manor",
         character: null,
         speaker: "???",
-        text: "You leave the chamber, unable to save Krunky but carrying the weight of her story. The investigation is complete, but at a great cost. Some mysteries are better left unsolved. THE END - Bittersweet Ending",
+        text: "You leave the chamber, unable to save Krunky but carrying the weight of her story. The investigation is complete, but at a great cost. Some mysteries are better left unsolved. THE END - BUT TRY AGAIN...?",
         choices: [
             { text: "Play Again", next: 0 }
         ]
